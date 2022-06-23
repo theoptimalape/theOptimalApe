@@ -1,0 +1,173 @@
+:root {
+  --pop-color: #17a2b8;
+  --light-pop-color: #bbbb3f;
+  --light-color: #f4f4f4;
+  --dark-color: #333;
+}
+
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.4;
+  font-size: 1.2rem;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Utilities */
+.container {
+  width: 80vw;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.margin {
+  margin: 1rem;
+}
+.b-margin {
+  margin-bottom: 1rem;
+}
+.padding {
+  padding: 1rem;
+}
+.l-p-color {
+  color: var(--light-pop-color);
+}
+
+/* Header */
+#header {
+  height: 20vh;
+  width: 100vw;
+  color: var(--light-color);
+  background: var(--dark-color);
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+/* Navbar */
+.nav-container {
+  width: 100vw;
+  background: #f4f4f4;
+  justify-content: center;
+}
+.nav-menu {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--pop-color);
+}
+
+/* Carousel */
+.carousel-container {
+  height: 70vh;
+  width: 100vw;
+  background: var(--dark-color);
+  align-items: center;
+  justify-content: center;
+}
+#carousel {
+  height: 100%;
+  width: 80%;
+  max-width: 900px;
+  background: var(--pop-color);
+}
+
+/* Subscribe Form */
+#subscribe {
+  width: 100vw;
+  background: var(--light-color);
+}
+.form {
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+}
+#email {
+  height: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+.submit-btn {
+  height: 2rem;
+  width: 4rem;
+  color: var(--light-color);
+  background: var(--dark-color);
+  border-radius: 5px;
+  border: none;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  color: var(--pop-color);
+  background: var(--light-pop-color);
+  box-shadow: var(--pop-color) 2px 2px 2px;
+}
+
+/* Portfolio */
+#landing-portfolio {
+  width: 100vw;
+  text-align: center;
+}
+.grid-container {
+  width: 80%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
+  background: var(--light-color);
+}
+.card {
+  height: 90%;
+  width: 90%;
+  background: var(--dark-color);
+  margin: auto;
+  border-radius: 5px;
+}
+
+/* Landing About Me */
+#landing-about {
+  height: 80vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about-img {
+  max-height: 325px;
+  max-width: 300px;
+  border-radius: 5px;
+}
+.card-container {
+  height: 50%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-card {
+  width: 30%;
+  height: 90%;
+  background: var(--light-color);
+}
+
+/* Footer */
+#footer {
+  width: 100vw;
+  height: 15vh;
+  background: var(--dark-color);
+  justify-content: center;
+  align-items: center;
+}
+#social-nav {
+  justify-content: space-evenly;
+}
