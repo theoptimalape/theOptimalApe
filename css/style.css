@@ -41,6 +41,9 @@ body {
 .l-p-color {
   color: var(--light-pop-color);
 }
+.active {
+  display: block !important;
+}
 
 /* Header */
 #header {
@@ -80,6 +83,24 @@ body {
   width: 80%;
   max-width: 900px;
   background: var(--pop-color);
+}
+#img-1 {
+  height: 100%;
+  width: 100%;
+  background: #bbbb3f;
+  display: none;
+}
+#img-2 {
+  height: 100%;
+  width: 100%;
+  background: #17a2b8;
+  display: none;
+}
+#img-3 {
+  height: 100%;
+  width: 100%;
+  background: #f4f4f4;
+  display: none;
 }
 
 /* Subscribe Form */
