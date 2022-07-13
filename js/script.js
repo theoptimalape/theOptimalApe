@@ -20,8 +20,4 @@ prevBtn.addEventListener("click", (e) => {
 
   currentSlide.classList.remove("active");
   prevSlide.classList.add("active");
-
-  if (currentSlide === slides[0]) {
-    prevBtn.style.display = none;
-  }
 });
